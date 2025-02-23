@@ -122,7 +122,7 @@ function getFarPosition(containerRect, windowWidth, windowHeight, buttonWidth, b
 
 yesBtn.addEventListener('click', () => {
     title.innerHTML = "HORE!!, KITA FIX BALIKANN! CIHUYY!";
-    document.querySelector('img').remove(); 
+    document.querySelector('img').src = "https://media.tenor.com/gUiu1zyxfzYAAAAi/good-night-kiss-kiss.gif"
     noBtn.style.display = 'none';
     yesBtn.style.display = 'none';
     bgMusic.play();
