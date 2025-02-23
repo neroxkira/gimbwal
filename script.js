@@ -121,7 +121,7 @@ function getFarPosition(containerRect, windowWidth, windowHeight, buttonWidth, b
 }
 
 yesBtn.addEventListener('click', () => {
-    title.innerHTML = "HORE!!, yaudaa mau eskrimm apaaa";
+    title.innerHTML = "HORE!!, KITA FIX BALIKANN! CIHUYY!";
     document.querySelector('img').remove(); 
     noBtn.style.display = 'none';
     yesBtn.style.display = 'none';
@@ -134,7 +134,7 @@ noBtn.addEventListener('click', () => {
         title.innerHTML = messages[noCount - 1].text;
         document.querySelector('img').src = messages[noCount - 1].image;
     } else {
-        title.innerHTML = "TAPI BOONG HEHEHE";
+        title.innerHTML = "HOREE!!";
         if (!noBtn.classList.contains('running')) {
             noBtn.classList.add('running');
         }
