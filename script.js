@@ -122,6 +122,7 @@ function getFarPosition(containerRect, windowWidth, windowHeight, buttonWidth, b
 
 yesBtn.addEventListener('click', () => {
     title.innerHTML = "HORE!!, yaudaa mau eskrimm apaaa";
+    document.querySelector('img').remove(); 
     noBtn.style.display = 'none';
     yesBtn.style.display = 'none';
     bgMusic.play();
