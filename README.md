@@ -59,7 +59,7 @@ Di file `index.html`, cari bagian `<audio>`, ganti `src` dengan URL musik kamu:
 Di file `script.js`, cari:
 ```javascript
 yesBtn.addEventListener('click', () => {
-    title.innerHTML = "HORE!! i knew you would say vqsghvwegdsbjs";
+    title.innerHTML = "HORE!! maaacccciiii paannii cantikkkkkk 🤏🏻🤏🏻;
     document.querySelector('img').src = "URL_GAMBAR_AKHIR";
 });
 ```
