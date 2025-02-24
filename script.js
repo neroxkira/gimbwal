@@ -2,7 +2,7 @@ const bgMusic = document.getElementById('bgMusic');
 
 // Auto-play music when page loads with lower volume
 window.addEventListener('load', () => {
-    bgMusic.volume = 0.5;  // Set volume to 50%
+    bgMusic.volume = 1;  // Set volume to 50%
     bgMusic.play().catch(console.log);
 });
 
@@ -134,7 +134,7 @@ noBtn.addEventListener('click', () => {
         title.innerHTML = messages[noCount - 1].text;
         document.querySelector('img').src = messages[noCount - 1].image;
     } else {
-        title.innerHTML = "HOREE!!";
+        title.innerHTML = "TAPI BOONG HEHE";
         if (!noBtn.classList.contains('running')) {
             noBtn.classList.add('running');
         }
