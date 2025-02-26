@@ -1,7 +1,7 @@
 {
   "name": "valentine-proposal",
   "version": "1.0.0",
-  "description": "Valentine's Day Proposal Website",
+  "description": "untuk try gefen",
   "main": "index.html",
   "scripts": {
     "start": "serve .",
