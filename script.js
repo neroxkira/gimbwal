@@ -15,15 +15,15 @@ musicControl.addEventListener('click', () => {
 
 const messages = [
     {
-        text: "plss mau dong",
+        text: "MAUU TIDAKK SALL?",
         image: "https://i.pinimg.com/736x/1e/7c/6f/1e7c6ff7a0c26f7eaefbce683656193d.jpg"
     },
     {
-        text: "pls klik yg kiri",
+        text: "PENCETT YANG KIRI SALL",
         image: "https://i.pinimg.com/736x/90/73/a9/9073a9359bff531cd830ae7384752934.jpg"
     },
     {
-        text: "terakhir, kalo \"no\" yauda deh",
+        text: "terakhir, kalo \"no\" PARAHH SIH SALL, yaudah dehh",
         image: "https://i.pinimg.com/736x/a6/43/f5/a643f5a40db387585b56bc767b66fddb.jpg"
     }
 ];
@@ -104,7 +104,7 @@ noBtn.addEventListener('click', () => {
         title.innerHTML = messages[noCount - 1].text;
         document.querySelector('img').src = messages[noCount - 1].image;
     } else {
-        title.innerHTML = "TAPI BOONG HEHEHE";
+        title.innerHTML = "HEHE TAPI BOONG SAL, MUHEHEHE";
         if (!noBtn.classList.contains('running')) {
             noBtn.classList.add('running');
             runAway({ target: noBtn });
